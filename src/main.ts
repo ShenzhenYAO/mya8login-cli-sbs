@@ -5,12 +5,12 @@
 
 // import polyfill modules (what is polyfill? see polyfill.ts )
 import './polyfills';
-
+import { enableProdMode } from '@angular/core';
 // import the module to deal with web component formating (like CSS)
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 
-import { enableProdMode } from '@angular/core';
+
 import { environment } from './environments/environment';
 
 if (environment.production) {
