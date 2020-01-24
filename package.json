@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "mycomment": "The following is to start the command after npm start. The purpose is to launch the index page in a browser",
+    "start_bk": "webpack-dev-server --mode development --open",
     "start": "ng serve",
     "ng": "ng",
     "build": "ng build",

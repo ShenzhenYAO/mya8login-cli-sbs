@@ -1,3 +1,8 @@
+import { Component } from '@angular/core';
+
+@Component({ templateUrl: 'home.component.html' })
+export class HomeComponent {}
+/*
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -13,3 +18,4 @@ export class HomeComponent implements OnInit {
   }
 
 }
+*/

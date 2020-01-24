@@ -6,11 +6,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
+// import { AppRoutingModule } from './app-routing.module';
+import { appRoutingModule } from './app.routing';
 
 // check app.component.ts, in which there is a class 'AppComponent' that is ready to be imported here.
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 
 /*decorate @NgModule, import the broswermodule (enable browsing in different browers like Chrome, firefox, etc),
@@ -21,11 +24,14 @@ import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    // AppRoutingModule
+    appRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
